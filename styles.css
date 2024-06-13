@@ -1,0 +1,35 @@
+.noSelect {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .noSelect:focus {
+    outline: none !important;
+  }
+  
+  .noScrollBar::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+  
+  /*scrollbar customization*/
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    display: none;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 3px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888;
+  }
